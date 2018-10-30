@@ -31,7 +31,7 @@ class _CTC(Function):
                   costs,
                   blank)
 
-        costs = torch.FloatTensor([costs.sum()])
+        #costs = torch.FloatTensor([costs.sum()])
 
         if length_average:
             # Compute the avg. log-probability per batch sample and frame.
